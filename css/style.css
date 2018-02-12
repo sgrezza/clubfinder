@@ -1,0 +1,9 @@
+html{
+  font-family: 'Inria Sans';
+  background: #eeeeee;
+}
+.color-bar{
+  height: 8px;
+  width: 100%;
+  background-color: #008542!important;
+}
