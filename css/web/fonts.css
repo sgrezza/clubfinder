@@ -64,3 +64,6 @@
 	font-style: italic;
 }
 
+html,:root{
+	font-family: "Inria Sans" !important;
+}

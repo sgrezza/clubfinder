@@ -1,19 +1,25 @@
-html{
-  font-family: 'Inria Sans';
-  background: #eeeeee;
-}
 .color-bar{
   height: 8px;
   width: 100%;
   background-color: #008542!important;
 }
-:root{
-  --green: #008542;
+
+.front-page-button{
+  display: flex;
+  align-items: center;
+
+  background-image: linear-gradient(-180deg, #0AAD5F 2%, #007A43 98%);
+  border-radius: 8px;
+  font-size: 30px;
+  color: #eeeeee;
+  height: 100px;
+  cursor: pointer;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.20);
 }
-.button{
-  background: linear-gradient(#0AAD5F, #007A43 );
-  color: #D4FFE9;
-}
-.button:hover{
+.front-page-button:hover{
   color: rgb(167, 211, 188);
+}
+icon{
+  padding-left: 20px;
+  padding-right: 20px;
 }
